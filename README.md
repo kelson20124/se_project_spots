@@ -9,9 +9,12 @@ this is a of image sharing site in which i used HTML , CSS and Responsive Web De
 - html
 - css
 - responsive design
+- BEM
 
 ## deployment
 
-- deployment link
-- images link
-- screen recording link
+- [deployment link](https://kelson20124.github.io/se_project_spots/)
+
+- [images link](https://drive.google.com/drive/folders/1LexmAZQvCGkiapE9u2FxEIPIlTujgKoj?usp=drive_link)
+
+- [screen recording link](https://drive.google.com/drive/folders/1T8-pWRL_aiAxevV9dvdXDqtzqBQ-vCcl?usp=drive_link)
