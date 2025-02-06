@@ -17,4 +17,4 @@ this is a of image sharing site in which i used HTML , CSS and Responsive Web De
 
 - [images link](https://drive.google.com/drive/folders/1LexmAZQvCGkiapE9u2FxEIPIlTujgKoj?usp=drive_link)
 
-- [screen recording link](https://drive.google.com/drive/folders/1T8-pWRL_aiAxevV9dvdXDqtzqBQ-vCcl?usp=drive_link)
+- [screen recording link](https://drive.google.com/file/d/14wQIwdsNvNJu50YNkL6yor8XJMftZYCj/view?usp=sharing)
