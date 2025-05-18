@@ -113,7 +113,7 @@
       <footer class="footer page__width">
         <p class="footer__copyrights">2024 &#169; Spots</p>
       </footer>
-      <div class="modal ">
+      <div class="modal">
         <div class="modal__container">
           <button class="modal__close-btn"></button>
           <h2 class="modal_title">Edit profile</h2>
@@ -138,19 +138,18 @@
           </form>
         </div>
       </div>
-      <div class="modal modal__opened ">
+      <div class="modal modal__opened">
         <div class="modal__container">
           <button class="modal__close-btn"></button>
           <h2 class="modal_title">New post</h2>
           <form name="profile-edit" class="modal__form">
-            <label for="image-input" class="modal__label"> Image link</label>
-
-              <input
+            <label for="image-input" class="modal__label">
+              Image link<input
                 id="image-input"
                 type="url"
                 placeholder="Place a Link to the picture"
                 class="modal__input"
-            ></label>
+            /></label>
 
             <label for="description" class="modal__label"
               >Caption<input
@@ -158,7 +157,7 @@
                 id="description"
                 type="text"
                 class="modal__input"
-          ></label>
+            /></label>
             <button type="submit" class="modal__save-btn">Save</button>
           </form>
         </div>
