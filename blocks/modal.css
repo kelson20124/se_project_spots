@@ -67,6 +67,7 @@
   font-size: 20px;
   line-height: 1;
   color: black;
+  width: 100%;
 }
 
 .modal__save-btn {
