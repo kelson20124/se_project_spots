@@ -35,11 +35,25 @@ const editProfileBtn = document.querySelector(".profile__edit-button");
 const editModal = document.querySelector("#edit-profile-modal");
 const editCloseBtn = editModal.querySelector(".modal__close-btn");
 
+const editProfileNameInpt = editModal.querySelector("#name");
+const editProfileDescriptionInpt = editModal.querySelector("#description");
+const editProfileForm = editModal.querySelector(".modal__form");
+
 const newPostBtn = document.querySelector(".profile__add-button");
 const newPostModal = document.querySelector("#new-post-modal");
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
+const newPostImageInpt = newPostModal.querySelector("#image-input");
+const newPostCaptionInpt = newPostModal.querySelector(
+  "#caption-description-input"
+);
+const newPostCardForm = newPostModal.querySelector(".modal__form");
+
+const profileNameClass = document.querySelector(".profile__name");
+const profileDescriptionClass = document.querySelector(".profile__description");
 
 editProfileBtn.addEventListener("click", function () {
+  editProfileNameInpt.value = profileNameClass.textContent;
+  editProfileDescriptionInpt.value = profileDescriptionClass.textContent;
   editModal.classList.add(".modal__opened");
 });
 
@@ -48,9 +62,27 @@ editCloseBtn.addEventListener("click", function () {
 });
 
 newPostBtn.addEventListener("click", function () {
+  newPostImageInpt.value;
+  newPostCaptionInpt.value;
   newPostModal.classList.add(".modal__opened");
 });
 
 newPostCloseBtn.addEventListener("click", function () {
   newPostModal.classList.remove(".modal__opened");
 });
+
+function handleProfileformSubmit(evt) {
+  profileNameClass.textContent = editProfileNameInpt.value;
+  profileDescriptionClass.textContent = editProfileDescriptionInpt.value;
+  evt.preventDefault();
+}
+
+editProfileForm.addEventListener("sumbit", handleProfileformSubmit);
+
+function handleCardformSubmit(evt) {
+  evt.preventDefault();
+  console.log(newPostImageInpt.value);
+  console.log(newPostCaptionInpt.value);
+}
+
+newPostCardForm.addEventListener("sumbit", handleCardformSubmit);
