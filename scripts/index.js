@@ -73,6 +73,7 @@ function handleProfileformSubmit(evt) {
   profileNameClass.textContent = editProfileNameInpt.value;
   profileDescriptionClass.textContent = editProfileDescriptionInpt.value;
   evt.preventDefault();
+  editModal.classList.remove("modal_opened");
 }
 
 editProfileForm.addEventListener("submit", handleProfileformSubmit);
@@ -81,6 +82,7 @@ function handleCardformSubmit(evt) {
   evt.preventDefault();
   console.log(newPostImageInpt.value);
   console.log(newPostCaptionInpt.value);
+  newPostModal.classList.remove("modal_opened");
 }
 
 newPostCardForm.addEventListener("submit", handleCardformSubmit);

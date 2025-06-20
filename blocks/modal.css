@@ -11,16 +11,13 @@
   justify-content: center;
   padding: 0 15px;
   visibility: hidden;
-  opacity: 1;
+  opacity: 0;
   transition: opacity 1s linear;
-}
-
-.modal:hover {
-  opacity: 1;
 }
 
 .modal_opened {
   visibility: visible;
+  opacity: 1;
 }
 
 .modal__container {
@@ -31,6 +28,10 @@
   box-sizing: border-box;
   width: 100%;
   position: relative;
+}
+
+.modal__close-btn:hover {
+  opacity: 1;
 }
 
 .modal__close-btn {
@@ -62,9 +63,7 @@
   flex-direction: column;
   gap: 8px;
   margin-bottom: 32px;
-  color: rgba(0, 0, 0, 0.7);
-
-  opacity: 0.6;
+  color: rgba(33, 33, 33, 0.7);
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
@@ -79,14 +78,19 @@
   line-height: 1;
   color: #212121;
   width: 100%;
+  border: solid 1px;
 }
 
 .modal__input::placeholder {
-  color: #212121;
+  color: rgba(33, 33, 33, 0.3);
 }
 
 .modal__input:hover {
   border-color: #212121;
+}
+
+.modal__save-btn:hover {
+  opacity: 0.5;
 }
 
 .modal__save-btn {
@@ -100,6 +104,7 @@
   line-height: 1;
   cursor: pointer;
   border: 0;
+  opacity: 1;
 }
 
 @media screen and (max-width: 627px) {
