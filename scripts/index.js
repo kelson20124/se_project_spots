@@ -1,4 +1,4 @@
-/*const initialCards = [
+const initialCards = [
   {
     name: "Val Thorens",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg",
@@ -29,7 +29,6 @@
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/6-photo-by-moritz-feldmann-from-pexels.jpg",
   },
 ];
-*/
 
 const editProfileBtn = document.querySelector(".profile__edit-button");
 const editModal = document.querySelector("#edit-profile-modal");
@@ -86,3 +85,8 @@ function handleCardformSubmit(evt) {
 }
 
 newPostCardForm.addEventListener("submit", handleCardformSubmit);
+
+initialCards.forEach(function (item) {
+  console.log(item.name);
+  console.log(item.link);
+});
