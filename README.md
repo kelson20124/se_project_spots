@@ -2,16 +2,16 @@
 
 ## Description
 
-this is a of image sharing site in which i used HTML , CSS and Responsive Web Design . By using Responsive Design it users to have the same experience on any device.
+This is a of image sharing site in which i used HTML , CSS and Responsive Web Design . By using Responsive Design it users to have the same experience on any device.
 
-## tech stack
+## Tech Stack
 
 - HTML
 - CSS
 - Responsive Design 
 - BEM
 
-## deployment
+## Deployment
 
 - [deployment link](https://kelson20124.github.io/se_project_spots/)
 
