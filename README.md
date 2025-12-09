@@ -6,9 +6,9 @@ this is a of image sharing site in which i used HTML , CSS and Responsive Web De
 
 ## tech stack
 
-- html
-- css
-- responsive design
+- HTML
+- CSS
+- Responsive Design 
 - BEM
 
 ## deployment
